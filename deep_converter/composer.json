@@ -1,0 +1,23 @@
+{
+    "name": "converter/deep-converter",
+    "type": "typo3-cms-extension",
+    "description": "",
+    "authors": [],
+    "require": {
+        "typo3/cms-core": "^8.7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Converter\\DeepConverter\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Converter\\DeepConverter\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "deep_converter": "self.version",
+        "typo3-ter/deep-converter": "self.version"
+    }
+}

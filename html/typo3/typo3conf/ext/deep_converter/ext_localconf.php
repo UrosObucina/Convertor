@@ -9,11 +9,11 @@ call_user_func(
             'Converter.DeepConverter',
             'Converter',
             [
-                'Mass' => 'convert'
+                'Mass' => 'convert,count'
             ],
             // non-cacheable actions
             [
-                
+                'Mass' => 'convert,count'
             ]
         );
 

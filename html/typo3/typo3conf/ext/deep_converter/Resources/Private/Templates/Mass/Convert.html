@@ -1,1 +1,13 @@
 <h1>Converter</h1>
+<f:form action="count" name="mass">
+    <label>Kilograms</label>
+    <f:form.textfield name="kilogram" property="kilogram" />
+    <label>Ton</label>
+    <f:form.textfield name="ton" property="ton"  />
+    <label>Gram</label>
+    <f:form.textfield name="gram" property="gram"  />
+    <label>Pfund</label>
+    <f:form.textfield name="pfund" property="pfund" />
+    <br>
+    <f:form.submit value="Count" class="btn btn-primary"/>
+</f:form>

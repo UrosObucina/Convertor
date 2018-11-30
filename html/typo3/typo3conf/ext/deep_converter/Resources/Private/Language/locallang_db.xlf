@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2018-11-30T10:39:07Z" product-name="deep_converter">
+		<header/>
+		<body>
+			<trans-unit id="tx_deep_converter_converter.name">
+				<source>converter</source>
+			</trans-unit>
+			<trans-unit id="tx_deep_converter_converter.description">
+				<source></source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

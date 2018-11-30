@@ -1,0 +1,43 @@
+{
+    "modules": [],
+    "properties": {
+        "backendModules": [],
+        "description": "",
+        "emConf": {
+            "category": "plugin",
+            "custom_category": "",
+            "dependsOn": "typo3 => 8.7.0-9.7.99\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "skipGenerateDocumentationTemplate": false,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "targetVersion": "8.7.0-8.7.99",
+            "version": "1.0.0"
+        },
+        "extensionKey": "deep_converter",
+        "name": "Deep Converter",
+        "originalExtensionKey": "deep_converter",
+        "originalVendorName": "Converter",
+        "persons": [],
+        "plugins": [
+            {
+                "actions": {
+                    "controllerActionCombinations": "Mass => convert",
+                    "noncacheableActions": "",
+                    "switchableActions": ""
+                },
+                "description": "",
+                "key": "converter",
+                "name": "converter"
+            }
+        ],
+        "vendorName": "Converter"
+    },
+    "wires": [],
+    "log": {
+        "last_modified": "2018-11-30 10:39",
+        "extension_builder_version": "8.10.2",
+        "be_user": " (4)"
+    }
+}

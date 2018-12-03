@@ -21,6 +21,9 @@
           <mappings>
             <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
           </mappings>
+          <excludedPaths>
+            <excludedPath path="/html/typo3/typo3conf/ext/deep_converter/Resources/Public/js/resetForm.js" />
+          </excludedPaths>
         </serverdata>
       </paths>
     </serverData>

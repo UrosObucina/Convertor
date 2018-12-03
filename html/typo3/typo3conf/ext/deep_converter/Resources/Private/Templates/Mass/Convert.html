@@ -1,13 +1,26 @@
 <h1>Converter</h1>
-<f:form action="count" name="mass">
-    <label>Kilograms</label>
-    <f:form.textfield name="kilogram" property="kilogram" />
-    <label>Ton</label>
-    <f:form.textfield name="ton" property="ton"  />
-    <label>Gram</label>
-    <f:form.textfield name="gram" property="gram"  />
-    <label>Pfund</label>
-    <f:form.textfield name="pfund" property="pfund" />
+<f:form action="count" id="mass"  name="mass">
+    <div class="container">
+        <div class="col-md-3">
+            <label>Kilograms</label>
+            <f:form.textfield type="number" value="{kilogram}" name="kilogram" property="kilogram" />
+        </div>
+        <div class="col-md-3">
+            <label>Ton</label>
+            <f:form.textfield type="number" value="{ton}" name="ton" property="ton"  />
+        </div>
+        <div class="col-md-3">
+            <label>Gram</label>
+            <f:form.textfield type="number" value="{gram}" name="gram" property="gram"  />
+        </div>
+        <div class="col-md-3">
+            <label>Pound</label>
+            <f:form.textfield type="number" value="{pound}" name="pound" property="pound" />
+        </div>
+        <br>
+    </div>
     <br>
-    <f:form.submit value="Count" class="btn btn-primary"/>
+    <div class="col-md-3 pull-right">
+    <f:form.submit value="Calculate" class="btn btn-primary"/>
+    </div>
 </f:form>
